@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Buttons/Button Emoji 1`] = `
+<main>
+  <div
+    className="container mx-auto px-5"
+  >
+    <button
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "border": "1px solid #eee",
+          "borderRadius": 3,
+          "cursor": "pointer",
+          "fontSize": 15,
+          "margin": 10,
+          "padding": "3px 10px",
+        }
+      }
+      type="button"
+    >
+      <span
+        aria-label="so cool"
+        role="img"
+      >
+        😀 😎 👍 💯
+      </span>
+    </button>
+  </div>
+</main>
+`;
+
+exports[`Storyshots Components/Styleguide/Colours Swatch 1`] = `
+<main>
+  <div
+    className="container mx-auto px-5"
+  >
+    <div
+      className="flex items-center mt-5"
+      onClick={[Function]}
+    >
+      <div
+        class="h-12 w-12 rounded-lg shadow-inner bg-black"
+      />
+      <div
+        className="ml-2 text-gray-800 text-xs leading-none pl-1"
+      >
+        <div
+          className="font-semibold"
+        >
+          Black
+        </div>
+        <div
+          className="mt-1 font-normal opacity-75"
+        >
+          #000000
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+`;
+
+exports[`Storyshots Components/Styleguide/Typography Block Block 1`] = `
+<main>
+  <div
+    className="container mx-auto px-5"
+  >
+    <div
+      className="mb-6"
+    >
+      <p
+        className="text-sm text-gray-600"
+      >
+        .
+        text-base font-normal leading-normal tracking-normal
+      </p>
+      <p
+        className="text-base font-normal leading-normal tracking-normal"
+      >
+        The quick brown fox jumps over the lazy dog
+      </p>
+    </div>
+  </div>
+</main>
+`;
+
+exports[`Storyshots Elements/Button Text 1`] = `
+<main>
+  <div
+    className="container mx-auto px-5"
+  >
+    <button
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#FFFFFF",
+          "border": "1px solid #eee",
+          "borderRadius": 3,
+          "cursor": "pointer",
+          "fontSize": 15,
+          "margin": 10,
+          "padding": "3px 10px",
+        }
+      }
+      type="button"
+    >
+      Hello Button
+    </button>
+  </div>
+</main>
+`;
