@@ -1,0 +1,21 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import TypographyBlock  from '../../../src/components/styleguide/typography';
+
+<Meta title="Styleguide/Typography/Letter Spacing"/>
+
+# Letter Spacing
+
+Letter spacing of <a href="https://tailwindcss.com/docs/letter-spacing">TailwindCSS</a>
+
+<div>
+	<div class="px-2 w-full relative mt-8">
+		<h2 class="mb-4 mt-8">.tracking</h2>
+		<TypographyBlock twClass="tracking-tighter" text={content.text} />
+		<TypographyBlock twClass="tracking-tight" text={content.text} />
+		<TypographyBlock twClass="tracking-normal" text={content.text} />
+		<TypographyBlock twClass="tracking-wide" text={content.text} />
+		<TypographyBlock twClass="tracking-wider" text={content.text} />
+		<TypographyBlock twClass="tracking-widest" text={content.text} />
+	</div>
+	<div class="h-20"></div>
+</div>

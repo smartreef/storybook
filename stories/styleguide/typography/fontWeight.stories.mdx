@@ -1,0 +1,24 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import TypographyBlock  from '../../../src/components/styleguide/typography';
+
+<Meta title="Styleguide/Typography/Weight"/>
+
+# Font Weight
+
+Font weights of <a href="https://tailwindcss.com/docs/font-weight">TailwindCSS</a>
+
+<div>
+	<div class="px-2 w-full relative mt-8">
+		<h2 class="mb-4 mt-8">.font-</h2>
+		<TypographyBlock twClass="font-hairline" text={content.text} />
+		<TypographyBlock twClass="font-thin" text={content.text} />
+		<TypographyBlock twClass="font-light" text={content.text} />
+		<TypographyBlock twClass="font-normal" text={content.text} />
+		<TypographyBlock twClass="font-medium" text={content.text} />
+		<TypographyBlock twClass="font-semibold" text={content.text} />
+		<TypographyBlock twClass="font-bold" text={content.text} />
+		<TypographyBlock twClass="font-extrabold" text={content.text} />
+		<TypographyBlock twClass="font-black" text={content.text} />
+	</div>
+	<div class="h-20"></div>
+</div>

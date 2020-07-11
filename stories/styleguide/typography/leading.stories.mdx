@@ -1,0 +1,21 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import TypographyBlock  from '../../../src/components/styleguide/typography';
+const paragraph = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, quia temporibus eveniet a libero incidunt suscipit laborum, rerum accusantium modi quidem, ipsam illum quis sed voluptatum quae eum fugit earum.";
+
+<Meta title="Styleguide/Typography/Line Height"/>
+
+# Line Height
+
+Line heights of <a href="https://tailwindcss.com/docs/line-height">TailwindCSS</a>
+
+<div>
+	<div class="px-2 w-full relative mt-8">
+		<h2 class="mb-4 mt-8">.leading</h2>
+		<TypographyBlock twClass="leading-none" text={paragraph} />
+		<TypographyBlock twClass="leading-tight" text={paragraph} />
+		<TypographyBlock twClass="leading-snug" text={paragraph} />
+		<TypographyBlock twClass="leading-normal" text={paragraph} />
+		<TypographyBlock twClass="leading-loose" text={paragraph} />
+	</div>
+	<div class="h-20"></div>
+</div>
