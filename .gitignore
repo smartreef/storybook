@@ -1,0 +1,8 @@
+# files
+
+
+# Use `npm run build:tailwind` to create this file
+styles/tailwind.css
+
+# directories
+node_modules/*
