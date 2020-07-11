@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`match snapshot 1`] = `
+<div
+  className="flex items-center mt-5"
+  onClick={[Function]}
+>
+  <div
+    class="h-12 w-12 rounded-lg shadow-inner bg-black"
+  />
+  <div
+    className="ml-2 text-gray-800 text-xs leading-none pl-1"
+  >
+    <div
+      className="font-semibold"
+    >
+      Black
+    </div>
+    <div
+      className="mt-1 font-normal opacity-75"
+    >
+      #000000
+    </div>
+  </div>
+</div>
+`;
